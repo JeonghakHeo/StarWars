@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 29px;
+  border: white;
+}
+
+.card .card_container {
+  width: 345px;
+  max-width: 345px;
+  height: 320px;
+  /* padding: 20px; */
+}
+
+.card .card_container .card_image {
+  height: 175px;
+}
+
+.card .card_container .MuiButton-root {
+  border: white;
+}

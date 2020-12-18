@@ -1,0 +1,26 @@
+.toolbar {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 30px auto;
+  background-color: #3a3a3a;
+  width: 80%;
+}
+
+.toolbar .toolbar_icon {
+  margin-right: 7px;
+  color: white;
+}
+
+.toolbar .toolbar_input {
+  color: white;
+}
+
+.databank_container {
+  width: 80%;
+
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

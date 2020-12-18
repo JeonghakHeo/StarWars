@@ -1,0 +1,35 @@
+.content_container {
+  background-image: url('https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg');
+}
+
+.tabs {
+  background-color: #000;
+  opacity: 1;
+}
+
+.tabs .MuiTabs-flexContainer {
+  display: flex;
+  justify-content: center;
+  border: 0.1px solid #aaaaaa;
+}
+
+.tabs .MuiTabs-flexContainer .MuiButtonBase-root {
+  text-transform: inherit;
+  outline-width: 0px;
+  border-left: 0.1px solid #aaaaaa;
+  border-right: 0.1px solid #aaaaaa;
+}
+
+.tabs_title .MuiTab-wrapper {
+  color: white;
+  font-weight: 700;
+}
+
+.tabs_title .MuiTab-wrapper:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.tabs_title .active .MuiTab-wrapper {
+font-weight: bold;
+}
